@@ -40,10 +40,10 @@ export default function Layout({ children }: { children: ReactNode }) {
           children: (
             <NavbarMenu>
               <NavbarMenuTrigger>
-                <Link href="/docs/ui">Courses</Link>
+                <Link href="/docs/python">Courses</Link>
               </NavbarMenuTrigger>
               <NavbarMenuContent className="text-[15px]">
-                <NavbarMenuLink href="/docs/ui" className="md:row-span-2">
+                <NavbarMenuLink href="/docs/python" className="md:row-span-2">
                   <div className="-mx-3 -mt-3">
                     <Image
                       src={Preview}
