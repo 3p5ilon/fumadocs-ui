@@ -1,14 +1,9 @@
+import "./global.css";
 import { RootProvider } from "fumadocs-ui/provider";
-import "fumadocs-ui/style.css";
-import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
-import { baseUrl, createMetadata } from '@/lib/metadata';
-import 'katex/dist/katex.css';
-
-const inter = Inter({
-  subsets: ["latin"],
-});
+import { baseUrl, createMetadata } from "@/lib/metadata";
+import "katex/dist/katex.css";
 
 export const metadata = createMetadata({
   title: {

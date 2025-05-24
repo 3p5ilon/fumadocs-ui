@@ -1,9 +1,5 @@
 import Link from 'next/link';
 
-export const metadata = {
-  title: 'AI4ALL',
-};
-
 export default function HomePage() {
   return (
     <main
