@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import { baseUrl, createMetadata } from '@/lib/metadata';
+import 'katex/dist/katex.css';
 
 const inter = Inter({
   subsets: ["latin"],
