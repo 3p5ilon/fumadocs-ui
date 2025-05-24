@@ -9,7 +9,7 @@ import {
 } from 'fumadocs-ui/layouts/home/navbar';
 import Link from 'fumadocs-core/link';
 import Image from 'next/image';
-import Preview from '@/public/python-banner.jpg';
+import Preview from '@/public/banner.png';
 import { Book, ComponentIcon, Pencil, PlusIcon, Server } from 'lucide-react';
 
 export default function Layout({ children }: { children: ReactNode }) {

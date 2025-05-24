@@ -1,5 +1,6 @@
 {
     "title": "Pytorch 101",
     "description": "Learn Pytorch",
-    "root": true
+    "root": true,
+    "icon": "Code"
   }

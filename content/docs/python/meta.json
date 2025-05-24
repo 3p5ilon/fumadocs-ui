@@ -1,5 +1,6 @@
 {
     "title": "Python 101",
-    "description": "Learn Python",
+    "description": "Python for Data Science",
+    "icon": "Pencil",
     "root": true
   }
