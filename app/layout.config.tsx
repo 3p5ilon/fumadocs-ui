@@ -1,9 +1,9 @@
 import { type LinkItemType } from "fumadocs-ui/layouts/docs";
 import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 import { AlbumIcon } from "lucide-react";
-// import Image from "next/image";
-// import DarkLogo from "@/public/logo-dark.png";
-// import LightLogo from "@/public/logo-light.png";
+import Image from "next/image";
+import DarkLogo from "@/public/logo-dark.png";
+import LightLogo from "@/public/logo-light.png";
 
 export const linkItems: LinkItemType[] = [
   {
@@ -38,24 +38,16 @@ export const linkItems: LinkItemType[] = [
 
 export const logo = (
   <>
-    <svg
-      width="24"
-      height="24"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-label="Logo"
-    >
-      <circle cx={12} cy={12} r={12} fill="currentColor" />
-    </svg>
-    {/* <Image
+    <Image
       src={LightLogo}
-      className="dark:hidden w-5 md:w-[18px]"
+      className="dark:hidden w-5 md:w-5"
       alt="OpenDeepLearning"
     />
     <Image
       src={DarkLogo}
-      className="hidden dark:flex w-5 md:w-[18px]"
+      className="hidden dark:flex w-5 md:w-5"
       alt="OpenDeepLearning"
-    /> */}
+    />
   </>
 );
 
