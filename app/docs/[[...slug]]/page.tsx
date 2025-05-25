@@ -55,8 +55,8 @@ export default async function Page(props: {
             a: createRelativeLink(source, page),
           })}
         />
-        <Rate onRateAction={onRateAction} />
       </DocsBody>
+      <Rate onRateAction={onRateAction} />
     </DocsPage>
   );
 }
