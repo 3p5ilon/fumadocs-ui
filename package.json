@@ -12,9 +12,9 @@
     "@tailwindcss/postcss": "^4.1.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "fumadocs-core": "15.3.4",
-    "fumadocs-mdx": "11.6.5",
-    "fumadocs-ui": "15.3.4",
+    "fumadocs-core": "15.4.0",
+    "fumadocs-mdx": "11.6.6",
+    "fumadocs-ui": "15.4.0",
     "katex": "^0.16.22",
     "lucide-react": "^0.511.0",
     "mermaid": "^11.6.0",
@@ -32,8 +32,8 @@
   },
   "devDependencies": {
     "@types/mdx": "^2.0.13",
-    "@types/node": "22.15.19",
-    "@types/react": "^19.1.4",
+    "@types/node": "22.15.21",
+    "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "typescript": "^5.8.3"
   }
